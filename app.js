@@ -33,7 +33,7 @@ app.engine("ejs", ejsMate);
 
 
 app.get("/", (req,res) => {
-    res.send("I am root")
+    res.redirect("/listings");
 });
 
 //Index Route - to show all listings
